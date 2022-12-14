@@ -1,0 +1,67 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container {
+        grid-template-rows: 80%;
+    }
+
+    form .btn {
+        margin-top: -90%;
+        background-color: rgb(0, 0, 0);
+        border: none;
+        height: 10%;
+        width: 100px;
+    }
+
+    form .buttons {
+        margin-left: 32%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* aqui defini-se a qtd de colunas e as suas widths*/
+        grid-template-rows: 90%;
+        /* aqui defini-se a qtd de colunas e as suas hegths*/
+        gap: 10px;
+    }
+
+    .left img{
+        width: 90%;
+    }
+
+    form .btn {
+        margin-top: -110%;
+    }
+
+    form .buttons {
+        margin-left: 25%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+
+}
+
+@media (min-width: 414px) and (max-width: 575px) {
+    
+
+}
+
+@media (min-width: 390px) and (max-width: 413px) {
+    
+
+}
+
+@media (min-width: 360px) and (max-width: 389px) {
+    
+
+}
