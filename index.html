@@ -18,27 +18,46 @@
             </div>
             <div class="right">
                 <form action="" method="post">
+                    <h1>DEV FORMS</h1>
                     <label for="" class="form-label">Nome</label>
                     <input type="text" class="form-control" name="" id="" placeholder="Maria">
-                    <label for="" class="form-label">Data de Nascimento</label>
-                    <input type="date" class="form-control" name="" id="messange">
-                    <label for="" class="form-label">Mensagem</label>
-                    <input type="text" class="form-control" name="" id="" placeholder="Olá Mundo!" maxlength="300">
 
-                    <input type="submit" class="form-control" name="" id="apagar" placeholder="Olá Mundo!" maxlength="300">
-                    <input type="reset" class="form-control" name="" id="apagar" placeholder="Olá Mundo!" maxlength="300">
+                    <label for="" class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" name="" id="">
+
+                    <label for="" class="form-label">Mensagem</label>
+                    <input type="text" class="form-control" name="" id="msg" maxlength="400">
+
+                    <p>Qual é a sua função?</p>
+                    <div class="container_func">
+                        <div>
+                            <input type="radio" id="front" name="fav_language" value="front">
+                            <label for="front">Front-End</label><br>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="back" name="fav_language" value="back">
+                            <label for="back">Back-End</label><br>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="full" name="fav_language" value="full">
+                            <label for="full">Fullstalk</label>
+                        </div>
+
+                    </div>
+
+
+                    <div class="buttons">
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                        <button type="reset" class="btn btn-dark">Apagar</button>
+                    </div>
                 </form>
 
             </div>
         </div>
 
     </main>
-
-    <footer>
-
-    </footer>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

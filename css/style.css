@@ -1,4 +1,7 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -6,47 +9,84 @@
     border: 0
 }
 
-body{
-    background-image: linear-gradient(180rem black, gray, white);
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(25, 28, 116, 1) 46%, rgba(69, 82, 252, 1) 100%);
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
-main{
-    background-color: #23036A;
-}
-
-footer{
-    background-color: chocolate;
-    height: 200px;
-}
-
-.container{
-    padding: 15px;
+.container {
+    padding: 20px;
     display: grid;
-    grid-template-columns: 50% 50%; /* aqui defini-se a qtd de colunas e as suas widths*/
-    grid-template-rows: 70% 30%; /* aqui defini-se a qtd de colunas e as suas hegths*/
+    grid-template-columns: 50% 50%;
+    /* aqui defini-se a qtd de colunas e as suas widths*/
+    grid-template-rows: 90%;
+    /* aqui defini-se a qtd de colunas e as suas hegths*/
     gap: 10px;
 }
- .left{
+
+.left {
     text-align: center;
     margin-top: 10%;
- }
+}
 
- form{
-    background-color: #9a7be0;
+form {
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 15px;
- }
+}
 
- .form-label{
+form h1 {
+    font-size: 26px;
+    text-align: center;
+    height: 10%;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
+.form-label {
     height: 20px;
-    color: white;
+    color: black;
     font-size: 18px;
- }
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
 
- .form-control{
+.form-control {
     height: 50px;
- }
+}
 
- .right{
+form p {
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_func {
+    height: 50%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* aqui defini-se a qtd de colunas e as suas widths*/
+    grid-template-rows: 5% 5% 5%;
+    /* aqui defini-se a qtd de colunas e as suas hegths*/
+    gap: 10px;
+    margin-top: -480px;
+    text-align: center;
+
+}
+
+form .btn {
+    margin-top: -90%;
+    background-color: black;
+    border: none;
+    height: 10%;
+    width: 100px;
+}
+
+form .buttons {
+    margin-left: 30%;
+}
+
+.right {
     margin-top: 10%;
- }
+}
